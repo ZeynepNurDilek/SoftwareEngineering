@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget37"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/widget36"
+	android:layout_width="208dp"
+	android:layout_height="wrap_content"
+	android:text="EditText"
+	android:textSize="18sp"
+	android:layout_x="113dp"
+	android:layout_y="3dp" />
+<TextView
+	android:id="@+id/widget38"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Etkinlik Ad&#305; :"
+	android:typeface="sans"
+	android:textStyle="bold"
+	android:layout_x="6dp"
+	android:layout_y="14dp" />
+<EditText
+	android:id="@+id/widget41"
+	android:layout_width="201dp"
+	android:layout_height="100dp"
+	android:text="EditText"
+	android:textSize="18sp"
+	android:layout_x="117dp"
+	android:layout_y="248dp" />
+<TextView
+	android:id="@+id/widget42"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="A&#231;&#305;klama :"
+	android:textStyle="bold"
+	android:layout_x="8dp"
+	android:layout_y="249dp" />
+
+<Button
+    android:id="@+id/kaydet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="358dp"
+    android:text="Kaydet" />
+
+<TextView
+    android:id="@+id/widget40"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="9dp"
+    android:layout_y="52dp"
+    android:text="Tarihi :"
+    android:textStyle="bold" />
+
+<DatePicker
+    android:id="@+id/widget39"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="78dp"
+    android:layout_y="57dp" />
+
+</AbsoluteLayout>
