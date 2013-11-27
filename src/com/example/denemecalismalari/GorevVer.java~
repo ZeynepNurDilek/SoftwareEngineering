@@ -64,7 +64,7 @@ btn_kaydet.setOnClickListener(new View.OnClickListener() {
 			cv.put("tarih",String.valueOf(time.getCurrentHour()));
 			
 			db_gorevler.insertOrThrow("Gorevler", null, cv);
-			//Toast.makeText(getApplication(), spinner.getSelectedItem().toString()+"'ye "+txt_gorev_tanimi.getText().toString()+" görevi verilmiştir.", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplication(), spinner.getSelectedItem().toString()+"'ye "+txt_gorev_tanimi.getText().toString()+" görevi verilmiştir.", Toast.LENGTH_SHORT).show();
 			txt_gorev_tanimi.setText("");
 			
 		}catch(Exception e)
