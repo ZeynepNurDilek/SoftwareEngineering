@@ -1,4 +1,4 @@
-package com.example.denemecalismalari;
+﻿package com.example.denemecalismalari;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -39,7 +39,7 @@ Database database;
 					cv.put("telno",txt_telno.getText().toString());
 					cv.put("email",txt_email.getText().toString());
 					db.insertOrThrow("Kisi_Ekle", null, cv);
-					Toast.makeText(getApplication(), "Veriler Başarı ile Kayıt Edildi.", Toast.LENGTH_SHORT).show();
+					//Toast.makeText(getApplication(), "Veriler Başarı ile Kayıt Edildi.", Toast.LENGTH_SHORT).show();
 					txt_adi.setText("");
 					txt_soyadi.setText("");
 					txt_telno.setText("");
