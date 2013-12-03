@@ -1,14 +1,14 @@
 SoftwareEngineering
 ===================
-Kulüp Uygulaması
+Kulup Uygulamasi
 
-Amaç : Üniversite kulüpleri tarafından yapılan toplantılar ve düzenlenen etkinliklerin kolay bir şekilde 
-planlanmasını sağlayarak, başkanın işini kolaylaştırmak.
+Amac : Universite kulupleri tarafindan yapilan toplantilar ve duzenlenen etkinliklerin kolay bir sekilde 
+planlanmasini saglayarak, baskanin isini kolaylastirmak.
 
-Grup Üyeleri:
+Grup Uyeleri:
 
 152120091028 Zeynep Nur Dilek
 
-152120091041 Gamze Karadağ
+152120091041 Gamze Karadag
 
-152120091052 Cemile Sarıcaoğlu
+152120091052 Cemile Saricaoglu
