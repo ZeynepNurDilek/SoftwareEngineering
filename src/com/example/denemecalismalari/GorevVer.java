@@ -33,7 +33,9 @@ public class GorevVer   extends Activity {
 		String selectQuery = "SELECT  * FROM Kisi_Ekle";
 	    SQLiteDatabase db = database.getReadableDatabase();
 	    Cursor cursor = db.rawQuery(selectQuery, null);
-	    // looping through all rows and adding to list
+	    
+	    //looping through all rows and adding to list
+	    
 	    while (cursor.moveToNext()) {
 	    	Toast.makeText(getApplicationContext(), cursor.getString(cursor.getColumnIndex("adi")), Toast.LENGTH_SHORT).show();
 	    	 
@@ -44,13 +46,13 @@ public class GorevVer   extends Activity {
 	    
 	    ArrayAdapter<String> adp= new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,list);
-adp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-spinner.setAdapter(adp);
+		adp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spinner.setAdapter(adp);
 
 
 
-final SQLiteDatabase db_gorevler = database.getWritableDatabase();
-final ContentValues cv = new ContentValues();
+		final SQLiteDatabase db_gorevler = database.getWritableDatabase();
+		final ContentValues cv = new ContentValues();
 
 
 btn_kaydet.setOnClickListener(new View.OnClickListener() {
