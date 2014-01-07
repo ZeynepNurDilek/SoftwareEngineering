@@ -9,5 +9,6 @@ public class Ajanda  extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.ajanda);
 		
+	
 	}
 }
